@@ -1,0 +1,23 @@
+git --version
+git status
+git init
+ git add .
+touch file
+cat file 
+git config --global user.name "iamkunal2k"
+git config --global --list
+git commit -m ""
+git push origin <branch>
+git log
+git remote add origin ....
+git remote show origin
+git branch -m main
+git branch  //to check branches
+git push -u origin "main"
+git fetch
+git checkout -b featurex
+git branch -d dream
+git log --oneline --graph
+git merge featurex
+git merge --no-ff featurex
+git branch -m old-name new-name
